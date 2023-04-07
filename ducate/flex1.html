@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            width:100vw ;
+            height:200vh ;
+            background-color: aquamarine;
+        }
+        .top{
+            width:100vw ;
+            height:20vh ;
+            background-color: blanchedalmond;
+            flex-wrap: wrap;
+            display: flex; 
+            /* justify-content: space-between; */
+             /* flex-direction: row-reverse; */
+        } 
+        .header{
+            width:35vw ;
+            height:20vh ;
+            background-color: blue;
+            font-size: 2.5em;
+            text-align: center;
+            font-weight: bold;
+            color: white;
+        }
+        .menu{
+            width:65vw ;
+            height:20vh ;
+            background-color: palevioletred;
+            /* flex-direction: row-reverse; */
+        }
+        ul {
+            display: flex;
+            list-style-type: none;
+            column-gap: 2vw;
+            /* flex-direction: row-reverse; */
+            justify-content: space-around;
+            color: white;
+            font-size: 1.5em;
+        }
+        ul li:hover{
+            text-decoration: underline;
+        }
+       
+        .center{
+            width:100vw ;
+            height:80vh ;
+            background-color: orange;
+             flex-wrap: wrap;
+            display: flex;
+            /* justify-content: space-around; */
+            
+
+        }
+        .m1{
+            width:50vw ;
+            height:10vh ;
+            background-color:red;
+            font-weight: bold;
+            font-size: 1.5em;
+            padding-left: 5vw;
+        }
+        .m2{
+            width:50vw ;
+            height:50vh ;
+            background-color: violet;
+            background-image: url('../iamges/boom.jpg');
+            background-repeat: no-repeat;
+            background-size: 50vw 50vh;
+        }
+        /* .center1{
+            width: 100vw;
+            height: 50vh; */
+           
+    
+        .m3{
+            width:50vw ;
+            height:30vh ;
+            background-color: yellow;
+            position: relative;
+            bottom: 40vh;
+            padding-left: 5vw;
+            line-height: 6vh;
+            
+            
+        }
+        .m4{
+            width:10vw ;
+            height: 10vh;
+            background-color: brown;
+            position: relative;
+            right:45vw ;
+           bottom: 10vh;
+            text-align: center;
+            padding-top: 3vh;
+            border-radius: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .bottom{
+            width: 100vw;
+            height: 100vh;
+            background-color: aqua;
+            position: relative;
+            bottom: 15vh;
+            display: flex;
+           flex-wrap: wrap;
+        }
+        .bt1{
+            width:50vw ;
+            /* height:10vh ; */
+            background-color: chartreuse;
+        }
+        .bt2{
+            width:50vw ;
+            /* height:30vh ; */
+            background-color: blue;
+        }
+        .bt3{
+            width:50vw ;
+            /* height:20vh ; */
+            background-color: antiquewhite;
+        }
+        .bt4{
+            width: 50vw;
+            /* height: 30vh; */
+            background-color: yellow;
+        }
+        
+        
+        
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            
+                <div class="header">Pinko</div>
+                <div class="menu">
+                    <ul>
+                        <li>home</li>
+                        <li>about us</li>
+                        <li >blog</li>
+                        <li >gallery</li>
+                        <li>contact</li>
+                    </ul>
+                </div>
+
+            
+        
+        </div>
+        <div class="center">
+            <div class="m1">Crash a risus dolor ac
+                accuman enim</div>
+                <div class="m2"></div>
+        <!-- <div class="center1">       -->
+            <div class="m3">In hac habitasse platea dictumst.Nam tempor tortor edit, <br>
+                in malesauda fermentum lacus arcu, <br>
+                pretium mauris.Cras a risus dolor,ac accuman enim. <br>
+                Sed vehicle vestibulum pulvinar</div>
+                
+            <div class="m4"><a href="#"> Learn details</a></div>
+        <!-- </div> -->
+           
+
+        </div>
+        <div class="bottom">
+            <div class="bt1">Welcome To Pinko Theme</div>
+            <div class="bt2"></div>
+            <div class="bt3"></div>
+            <div class="bt4"></div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 30vh;
+    /* background-color: aqua; */
+}
+.header{
+    width: 100vw;
+    height: 20vh;
+    margin-top: 20px;
+    /* background-color: aliceblue; */
+    position: relative;
+}
+.hlogo{
+    width: 50vw;
+    height:10vh ;
+    border: 3px solid black;
+    text-align: center;
+    /* background-color: blueviolet; */
+    border: ;
+}
+.hbanner{
+    width: 50vw;
+    height: 10vh;
+    border: 3px solid black;
+    border-left: 0px;
+    text-align: center;
+    /* background-color: orange; */
+    position: absolute;
+    top: 0px;
+    margin-left: 50vw;
+}
+.hbar{
+    width:100vw;
+    height: 10vh;
+    border: 3px solid black;
+    border-top: 0px;
+    text-align: center;
+    /* background-color: brown; */
+}
+.three{
+    width:100vw ;
+    height:40vh ;
+    /* background-color: blue; */
+    margin-top: 20px;
+    position: relative;
+}
+.A1{
+    width:25vw ;
+    height:40dvh ;
+    border:  3px solid black;
+    text-align: center;
+    /* background-color: blanchedalmond; */
+}
+.B2{
+    width:50vw ;
+    height:40vh ;
+    border: 3px solid black;
+    border-left: 0px;
+    /* background-color: chartreuse; */
+    position: absolute;
+    top: 0px;
+    margin-left:25vw ;
+}
+.C3{
+    width:25vw ;
+    height:40vh ;
+    border: 3px solid black;
+    border-left: 0px;
+    text-align: center;
+    /* background-color: antiquewhite; */
+    position: absolute;
+    top: 0px;
+    margin-left:75vw ;
+}
+.cc{
+    width: 50vw;
+    height:10vh ;
+    border:  3px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    text-align:center ;
+    /* background-color: cornflowerblue; */
+}
+.cd{
+    width:50vw ;
+    height:20vh ;
+    /* border: 3px solid black; */
+    /* background-color: crimson; */
+    position: relative;
+}
+.mc{
+    width:50vw ;
+    height:9vh ;
+    text-align: center;
+    /* background-color: darkkhaki; */
+}
+.centerleft{
+    width:25vw ;
+    height: 20vh;
+    border: 3px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    text-align: center;
+    /* background-color: darksalmon; */
+}
+.centerright{
+    width:25vw ;
+    height:20vh ;
+    border: 3px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    text-align: center;
+    /* background-color: lemonchiffon; */
+    position: absolute;
+    top: 0px;
+    margin-left:25vw ;
+}
+.footer{
+    width: 100vw;
+    height:10vh ;
+    border: 3px solid black;
+    margin-top: 20px;
+    text-align: center;
+    /* background-color: chartreuse; */
+}
+

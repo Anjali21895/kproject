@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+    .container1{
+        width: 600px;
+        height: 200px;
+        border: 1px solid blue;
+        background-image: url('../iamges/nature.jpg');
+        background-size: 600px 200px;
+        background-repeat: no-repeat;
+        padding: 50px;
+    
+    
+}
+.container1:hover{
+    color: blueviolet;
+    font-size: 2em;
+    background-image: url(../iamges/nature.jpg);
+}
+.container2{
+     width:200px;
+    height: 200px;
+    background-color: brown;
+   /* margin-left: 249px;
+    margin-top: -200px;*/
+}

@@ -1,0 +1,10 @@
+.text1{
+    color: blue;background-color: blueviolet;
+}
+.text2{
+    color: aqua;background-color: black;
+}
+.text1:hover{
+    text-decoration: underline;
+    border: 2px solid green;
+}
